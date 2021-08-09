@@ -1,0 +1,144 @@
+/*whole title section*/
+#title {
+    background-color:#ff4c68;
+    color: white;
+    padding-bottom: 7%;
+    }
+
+/*navigation bar*/
+.navbar {
+    padding: 1.5rem  0  4.5rem;
+}
+.navbar-brand {
+    font-family: 'ubuntu','sans-serif';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.pull-left {
+    padding:0 18px 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    color: white;
+}
+/*title-elements*/
+h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.download-btn {
+    margin: 5% 3% 5% 0%;
+}
+.title-img {
+    width:45%;
+    transform :rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/*whole features section*/
+#features {
+    padding-top: 5%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+/*features-element*/
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.description {
+    font-family: monospace;
+    font-weight: lighter;   
+     color: #8f8f8f;
+}
+
+.feature-box {
+    text-align: center;
+    padding:5%;
+}
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 2%;
+}
+.feature-icon:hover {
+    color: #ff4c68;
+}
+/*testimonials section*/
+
+#testimonials {
+  
+    text-align: center;
+    color: white;
+    background-color: tomato;
+}
+h2 {
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3 rem;
+    font-weight: bold;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+.carousel-item {
+    padding:7% 15%;
+}
+/*press section */
+#press {
+    background-color: tomato;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width:15%;
+    margin: 20px 15px 20px;
+}
+/*pricing section*/
+#pricing {
+    padding :7% 15%;
+    text-align: center;
+}
+.pricing-col {
+    margin-top: 3%;
+  
+    padding: 3% 2%;
+}
+/*cta section*/
+#cta {
+    background-color:#ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: white;
+}
+.cta-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5 rem;
+    line-height: 1.5;
+}
+/*footer section*/
+#footer {
+    padding:7% 15%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.social-icon {
+    margin:20px 10px;
+}
+/*media query breakpoint*/
+@media ( max-width: 1028px )
+{
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
